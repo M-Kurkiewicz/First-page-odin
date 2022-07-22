@@ -40,7 +40,6 @@ a {
 .logo-content {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
 }
 .skull  {
     width: 30px;
@@ -85,22 +84,30 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
+    padding: 20px;
+    width: 80%;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .main {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
     color: #F9FAF8;
-    width: 400px;
-    line-height: 60px;
+    line-height: 50px;
     text-shadow: 0 0 0.8em #3882F6;
+
 }
 
 .text {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
     width: 450px;
 }
@@ -112,6 +119,8 @@ a {
     padding: 7px 30px;
     border-radius: 8px;
     margin-top: 10px;
+    align-self: center;
+    margin-top: 20px;
 }
 
 .placeholder {
